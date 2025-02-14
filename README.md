@@ -301,10 +301,10 @@
             <button onclick="saveFaithProfile()" class="button" style="display: block; margin: 20px auto; padding: 10px 20px; background-color: #008080; color: white; border: none; border-radius: 5px; cursor: pointer;">Save Faith's Profile</button>
         </div>
 
-       <div class="content-container">
-    <div>
+      <div class="content-container">
+    <div style="margin-bottom: 20px;">
         <h3>Finley's Profile</h3>
-        <img id="finley-img" alt="Finley's Profile Picture" style="width: 100px; height: 100px; object-fit: cover;">
+        <img id="finley-img" alt="Finley's Profile Picture" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
         <p id="finley-name-text">Name: Finley</p>
         <p id="finley-email-text">Email: finley@example.com</p>
         <p id="finley-phone-text">Phone: 123-456-7890</p>
@@ -312,12 +312,14 @@
     </div>
     <div>
         <h3>Faith's Profile</h3>
-        <img id="faith-img" alt="Faith's Profile Picture" style="width: 100px; height: 100px; object-fit: cover;">
+        <img id="faith-img" alt="Faith's Profile Picture" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
         <p id="faith-name-text">Name: Faith</p>
         <p id="faith-email-text">Email: faith@example.com</p>
         <p id="faith-phone-text">Phone: 098-765-4321</p>
         <p id="faith-dob-text">Date of Birth: 1996-11-10</p>
     </div>
+</div>
+
 </div>
 
         </div>
