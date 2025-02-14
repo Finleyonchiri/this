@@ -391,7 +391,6 @@
                 </tr>
             </table>
         </div>
-    </div>
 </section>
 
 <section id="playlist-section" class="hidden">
