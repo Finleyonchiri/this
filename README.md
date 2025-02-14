@@ -301,24 +301,25 @@
             <button onclick="saveFaithProfile()" class="button" style="display: block; margin: 20px auto; padding: 10px 20px; background-color: #008080; color: white; border: none; border-radius: 5px; cursor: pointer;">Save Faith's Profile</button>
         </div>
 
-        <!-- Display Profile Data -->
-<div class="content-container" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; padding: 20px; background-color: #f9f9f9;">
-    <div style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 350px; text-align: center;">
-        <h3 style="color: #4CAF50;">Finley's Profile</h3>
-        <img id="finley-img" class="profile-img" alt="Finley's Profile Picture" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
-        <p id="finley-name-text" style="color: #333;">Name: Finley</p>
-        <p id="finley-email-text" style="color: #333;">Email: finley@example.com</p>
-        <p id="finley-phone-text" style="color: #333;">Phone: 123-456-7890</p>
-        <p id="finley-dob-text" style="color: #333;">Date of Birth: 1995-06-15</p>
+       <div class="content-container">
+    <div>
+        <h3>Finley's Profile</h3>
+        <img id="finley-img" alt="Finley's Profile Picture" style="width: 100px; height: 100px; object-fit: cover;">
+        <p id="finley-name-text">Name: Finley</p>
+        <p id="finley-email-text">Email: finley@example.com</p>
+        <p id="finley-phone-text">Phone: 123-456-7890</p>
+        <p id="finley-dob-text">Date of Birth: 1995-06-15</p>
     </div>
-    <div style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 350px; text-align: center;">
-        <h3 style="color: #FF5722;">Faith's Profile</h3>
-        <img id="faith-img" class="profile-img" alt="Faith's Profile Picture" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
-        <p id="faith-name-text" style="color: #333;">Name: Faith</p>
-        <p id="faith-email-text" style="color: #333;">Email: faith@example.com</p>
-        <p id="faith-phone-text" style="color: #333;">Phone: 098-765-4321</p>
-        <p id="faith-dob-text" style="color: #333;">Date of Birth: 1996-11-10</p>
+    <div>
+        <h3>Faith's Profile</h3>
+        <img id="faith-img" alt="Faith's Profile Picture" style="width: 100px; height: 100px; object-fit: cover;">
+        <p id="faith-name-text">Name: Faith</p>
+        <p id="faith-email-text">Email: faith@example.com</p>
+        <p id="faith-phone-text">Phone: 098-765-4321</p>
+        <p id="faith-dob-text">Date of Birth: 1996-11-10</p>
     </div>
+</div>
+
         </div>
 
         <!-- Our Games Section -->
